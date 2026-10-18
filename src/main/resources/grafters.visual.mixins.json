@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "package": "com.grafters.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ItemInHandRendererMixin",
+    "LivingEntityMixin",
+    "EntityPickMixin",
+    "MultiPlayerGameModeMixin",
+    "ClientPacketListenerSendMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}
